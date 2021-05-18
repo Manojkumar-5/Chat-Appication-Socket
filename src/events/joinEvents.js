@@ -7,7 +7,7 @@ const API_TOKEN =
 	'eyJhbGciOiJIUzI1NiJ9.RHVtbXk.3UaKDlGI7j1xJObVH4TSAxO31rPCP3DBFEorIHnHhKo';
 
 const axiosRequest = axios.create({
-	baseURL: 'http://localhost:5000',
+	baseURL: 'https://chatapp-backend-node.herokuapp.com',
 	headers: {
 		authorization: `Bearer ${API_TOKEN}`,
 	},
