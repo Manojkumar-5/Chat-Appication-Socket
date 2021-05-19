@@ -28,6 +28,6 @@ const onConnection = (socket) => {
 
 io.on('connection', onConnection);
 
-httpServer.listen(8080, () => {
+httpServer.listen(443, () => {
 	console.log('Server running');
 });
